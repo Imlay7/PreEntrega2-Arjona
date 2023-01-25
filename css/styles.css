@@ -1,0 +1,81 @@
+body {
+    padding-top: 200px;
+    background-image: url(../img/bruma\ 5.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.header__logo {
+    display: block;
+    height: 10rem;
+    margin: auto;
+    
+}   
+
+.header__nav {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 1rem;
+}
+
+.header__nav li {
+    display: inline;
+    margin: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #03045eff;
+    
+}
+
+#estructura {
+    background-color: rgb(18, 62, 112);
+    width: 50rem;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.estructura__titulo {
+    text-align: center;
+    color: white;
+}
+
+.estructura__flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.estructura__imagen {
+    margin: 2rem 0;
+    padding: 2rem;
+    width: 25rem;
+    height: 15rem;  
+} 
+
+
+
+
+footer {
+    background-color: rgb(18, 62, 112);
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
+
+
+
