@@ -40,6 +40,12 @@ body {
     
 }
 
+h1 {
+    font-size: 2rem;
+    padding: 2rem;
+    
+}
+
 #estructura {
     background-color: rgb(18, 62, 112);
     width: 50rem;
@@ -62,9 +68,15 @@ body {
     margin: 2rem 0;
     padding: 2rem;
     width: 25rem;
-    height: 15rem;  
+    height: 18rem;  
 } 
 
+@media (min-width: 768px) {
+        .estructura__flex {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+}
 
 
 
